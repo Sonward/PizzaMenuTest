@@ -1,0 +1,15 @@
+﻿Program Pizza Restraunt
+
+Roles:
+Customer:
+- Can create order
+- Can cancel order
+
+Worker:
+- Can take order
+- Can change status of order
+
+Order:
+- Contain pizza info
+- Contain total price of pizzas
+- Contain Id if customer

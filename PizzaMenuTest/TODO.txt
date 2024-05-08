@@ -1,0 +1,30 @@
+﻿// ----------------------------------------------------------------------------------------------------------------------
+- Little inmprovements (this section doesn't follow the main work order)
+// ----------------------------------------------------------------------------------------------------------------------
+- Add to Pizza entity string property Description. By default it will contains string with
+names of all ingridient that can be showed.
+  - Add bool property CanShow to Inggridient entity. It will decided if name of this property
+  can be showed in Description property in Pizza entity.
+
+// ----------------------------------------------------------------------------------------------------------------------
+I. Pizza - Ingridient 
+// ----------------------------------------------------------------------------------------------------------------------
+1. Finish ingridients only (From DAL to Controllers) - done
+2. Finish pizza only (without ingridient intraction) - done
+	- Replace PizzaIngridientDto with IngridientDto in PizzaFullDto - done
+3. Finish PizzaIngridient interaction (many to many) - done
+4. Make pizza upddate price if some ingridient are deletet or updated - done
+	- Test Update for PizzaService and Delete and Update for IngriientService - done (not sure, but tests passed)
+
+// ----------------------------------------------------------------------------------------------------------------------
+II. Order
+// ----------------------------------------------------------------------------------------------------------------------
+1. Create Repository and Service for CRUD operatoions for Orer entity - done
+2. Make Order update price if some pizzas in it was deleted or changed - done
+3. Create Controller for CRUD operatoions for Orer entity
+
+// ----------------------------------------------------------------------------------------------------------------------
+III. Customer & Worker
+// ----------------------------------------------------------------------------------------------------------------------
+1. Create Repository, Service and Controller for CRUD operatoions for Customer entity - done
+2. Create Repository, Service and Controller for CRUD operatoions for Worker entity - done
